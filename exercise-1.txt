@@ -1,0 +1,72 @@
+Nomor 1
+
+Pseudocode
+
+Store Resultan
+Store M = 600
+Store A = 2
+Compute Resultan as M*A
+Display Resultan
+console.log(Resultan)
+
+
+Nomor 2
+
+Algorithma
+
+1. Bikin variable tahun, isi dengan 0-9999
+2. Jika tahun habis dibagi 4, maka jalankan step 2a;
+    Jika tidak, maka jalankan step 2b;
+        Jika tidak, maka jalankan step 2c;
+
+    Step 2a, tampilkan 'ya, tahun ini adalah tahun kabisat.'
+    Step 2b, tampilkan 'ya, tahun ini adalah tahun kabisat.'
+    Step 2c, tampilkan 'tidak, tahun ini bukanlah tahun kabisat.'
+
+Pseudocode
+
+Store tahun = 0 - 9999
+IF tahun / 4 = whole number,
+    Display "ya, tahun ini adalah tahun kabisat."
+IF tahun /4 or /100 or /400 = whole number,
+    Display "ya, tahun ini adalah tahun kabisat."
+ELSE, Display: "tidak, tahun ini bukanlah tahun kabisat."
+
+
+Nomor 3
+
+Algorithma
+1. Bikin variable pakaian, isi dengan 0-9999
+2. Jika angka tersebut adalah kelipatan 20, maka jalankan step 2a;
+    jika tidak, maka jalankan step 2b;
+
+    Step 2a, tampilkan 'ya, silahkan cuci.'
+    Step 2b, tampilkan 'tidak, tunggu sampai penuh dulu.'
+
+Pseudocode
+
+Store pakaian = 0 - 9999
+IF pakaian is multiples of 20,
+    Display "ya, silahkan cuci."
+ELSE, Display: "tidak, tunggu sampai penuh dulu."
+
+
+
+Nomor 4
+
+Algorithma
+
+1. Bikin variable murid, isi dengan 0-40
+2. Jika kuku murid = panjang, maka jalankan step 2a;
+    jika tidak, maka jalankan step 2b;
+
+    step 2a, tampilkan 'gunting kukunya'
+    step 2b, tampilkan 'bagus'
+
+
+Pseudocode
+
+Store murid = 0 - 40
+IF kuku murid = panjang
+    Display: "gunting kukunya."
+ELSE, Display: "bagus."
